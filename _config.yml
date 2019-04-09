@@ -13,6 +13,7 @@ description: The Jekyll version of the Massively theme by HTML5 UP.
 #baseurl: "/massively-jekyll-theme" # the subpath of your site, e.g. /blog
 baseurl: "/jazz" # the subpath of your site, e.g. /blog
 url: "https://rednaxela796.github.io" # the base hostname & protocol for your site
+remote_theme: irubataru/massively-jekyll-theme
 
 # Logo settings
 logo-image-url:
