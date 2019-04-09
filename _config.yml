@@ -5,15 +5,16 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+remote_theme: irubataru/massively-jekyll-theme
+
 # Site settings
-title: Jazz
+title: Massively
 subtitle: "by HTML5 UP"
 email: youremailaddress@gmail.com
+phone: (000) 000-0000
 description: The Jekyll version of the Massively theme by HTML5 UP.
-#baseurl: "/massively-jekyll-theme" # the subpath of your site, e.g. /blog
-baseurl: "/jazz" # the subpath of your site, e.g. /blog
-url: "https://rednaxela796.github.io" # the base hostname & protocol for your site
-remote_theme: irubataru/massively-jekyll-theme
+baseurl: "/massively-jekyll-theme" # the subpath of your site, e.g. /blog
+url: "https://irubataru.github.io" # the base hostname & protocol for your site
 
 # Logo settings
 logo-image-url:
@@ -28,12 +29,12 @@ instagram: myinstagram
 # Build settings
 markdown: kramdown
 
+# Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 6
 paginate_path: /page:num/
 
 include:
   - _pages
-  - _posts
 
 exclude:
   - .gitignore
@@ -41,7 +42,6 @@ exclude:
   - Gemfile.lock
   - LICENSE.txt
   - massively_jekyll_theme.gemspec
-  - docs/
 
 compress_html:
   clippings: []
